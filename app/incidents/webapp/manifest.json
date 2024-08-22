@@ -128,10 +128,15 @@
                 "@com.sap.vocabularies.UI.v1.LineItem": {
                   "tableSettings": {
                     "type": "ResponsiveTable"
+                  },
+                  "columns": {
+                    "DataField::title": {
+                      "width": "100%"
+                    }
                   }
                 }
               },
-              "initialLoad": "Auto"
+              "initialLoad": "Enabled"
             }
           }
         },
@@ -149,6 +154,11 @@
                     "type": "ResponsiveTable",
                     "creationMode": {
                       "name": "Inline"
+                    }
+                  },
+                  "columns": {
+                    "DataField::author": {
+                      "width": "100%"
                     }
                   }
                 }
